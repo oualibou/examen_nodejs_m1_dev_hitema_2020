@@ -19,7 +19,7 @@ var user;
 var nodes = people.getPeople(null);
 for each(var node in nodes)
 { 
-  logger.log(node); 
+  logger.log(node);; 
   user = utils.getNodeFromString(node); 
   logger.log(user.properties["cm:userName"] + " '" 
       + user.properties["cm:firstName"] + "' '" 
